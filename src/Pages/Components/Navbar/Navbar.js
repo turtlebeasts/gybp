@@ -30,7 +30,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src="favicon-16x16.png" /> GYbP
+        <img src="favicon-16x16.png" alt="GYbP"/> GYbP
       </Typography>
       <Divider />
       <List>
@@ -66,7 +66,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            <img src="favicon-16x16.png" /> GYbP
+            <img src="favicon-16x16.png" alt="GYbP"/> GYbP
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
